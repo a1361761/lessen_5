@@ -1,0 +1,115 @@
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format(woff);
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-BoldItalic.woff2") format("woff2"), url("../fonts/CircularStd-BoldItalic.woff") format(woff);
+   font-weight: 700;
+   font-style: italic;
+   font-display: swap;
+}
+
+* {
+   font-size: 15px;
+   text-align: justify;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   max-width: 900px;
+   margin: 0px auto;
+   padding: 30px 0px;
+}
+
+.header{
+   font-size: 20px;
+   font-weight: 900;
+   color: blue;
+   font-size: 30px;
+   text-shadow: 1px 1px 1px #000;
+   padding-bottom: 20px;
+}
+
+.item {
+   padding: 20px;
+}
+
+.list{
+   display: inline;
+   padding: 30px;
+   align-items: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+div p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding-top: 20px;
+}
+
+[class*="_4"] {
+	color: salmon;
+   font-size: 18px;
+   padding-top: 20px;
+}
+
+.tnr {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.arial {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.courier {
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.letter-spacing {
+   line-height: 1;
+   letter-spacing: 2px;
+}
+
+.scroll {
+   margin: 0px 0px 50px 0px;
+	max-height: 100px;
+   overflow: auto;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.italic {
+   font-style: italic;
+}
+
+.underline {
+   text-decoration: underline;
+}
+
+.lowercase {
+   text-transform: lowercase;
+}
+
+.uppercase {
+   text-transform: uppercase;
+}
+
+.bolditalic {
+font-family: CircularStd, sans-serif;
+font-style: italic;
+font-weight: 700;
+color: cornflowerblue;
+}
+
+.book {
+font-family: CircularStd, sans-serif;
+color: darkblue;
+}
